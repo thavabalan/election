@@ -31,7 +31,7 @@
                             <div class="page-title-wrapper">
                                     <div class="text-center">
 
-                                <img src="{{asset('/election/logo.png')}}" class="mx-auto d-block" />
+                                <img src="{{asset('/election/logo.png')}}" class="img-fluid" />
                             </div>
 
                                     
