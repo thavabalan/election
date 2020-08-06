@@ -51,7 +51,7 @@ class PageController extends Controller
         $otherpervote = $others/$totlavote*100;
         else
         $otherpervote = 0;
-        $unp = PartyVote::where('party_id','6')->sum('votes');
+        $unp = PartyVote::where('party_id','9')->sum('votes');
         if($totlavote != 0)  
 
         $unppervote = $unp/$totlavote*100;
@@ -105,7 +105,7 @@ class PageController extends Controller
         $otherjpervote = $othersj/$totlavotej*100;
         else
         $otherjpervote = 0;
-        $unpj = PartyVote::where('party_id','6')->where('district_id','1')->sum('votes');
+        $unpj = PartyVote::where('party_id','9')->where('district_id','1')->sum('votes');
         if($totlavotej != 0)  
 
         $unpjpervote = $unpj/$totlavotej*100;
@@ -159,7 +159,7 @@ class PageController extends Controller
         $othervpervote = $othersv/$totlavotev*100;
             else
             $othervpervote = 0;
-        $unpv = PartyVote::where('party_id','6')->where('district_id','2')->sum('votes');
+        $unpv = PartyVote::where('party_id','9')->where('district_id','2')->sum('votes');
         if($totlavotev != 0) 
 
         $unpvpervote = $unpv/$totlavotev*100;
@@ -210,7 +210,7 @@ class PageController extends Controller
         $otherapervote = $othersa/$totlavotea*100;
         else
         $otherapervote = 0;
-        $unpa = PartyVote::where('party_id','6')->where('district_id','3')->sum('votes');
+        $unpa = PartyVote::where('party_id','9')->where('district_id','3')->sum('votes');
         if($totlavotea != 0) 
         $unpapervote = $unpa/$totlavotea*100;
         else
@@ -261,7 +261,7 @@ class PageController extends Controller
         $otherbpervote = $othersb/$totlavoteb*100;
         else 
         $otherbpervote = 0;
-        $unpb = PartyVote::where('party_id','6')->where('district_id','4')->sum('votes');
+        $unpb = PartyVote::where('party_id','9')->where('district_id','4')->sum('votes');
         if($totlavoteb != 0)     
 
         $unpbpervote = $unpb/$totlavoteb*100;
@@ -318,7 +318,7 @@ class PageController extends Controller
         $othertpervote = $otherst/$totlavotet*100;
         else
         $othertpervote = 0;
-        $unpt = PartyVote::where('party_id','6')->where('district_id','5')->sum('votes');
+        $unpt = PartyVote::where('party_id','9')->where('district_id','5')->sum('votes');
         if($totlavotet != 0) 
 
         $unptpervote = $unpt/$totlavotet*100;
